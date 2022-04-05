@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: hsl(199, 25%, 52%);
+  padding: 1px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: rgb(152, 175, 175);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #5b78c5;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(129, 88, 88);
+  padding: 10px;
+  text-align: lefht;
+  color: rgb(255, 255, 255);
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>CENTRO DE ADOPCION "AYUDA A UN PELUDO"</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+        <p>NUESTRAS SECCIONES DE AYUDA:</p>
+        <article><li><a href="C:\Piero Sepulveda\PERROS.HTML"><button>PERRO</button></a></li>
+          <li><a href="C:\Piero Sepulveda\GATOS.HTML"><button>GATOS</button></a></li></article>
+         
+    </ul>
+  </nav>
+  
+  <article>
+    <h1></h1>
+    <p style="color:white">Esta ong  esta  especializada en la ayuda a animales especialmente a perros y gatos , aqui puedes encontrara informacion de aquello ,este se dedica  a la mantencion y adopcion de estos animales. </p>
+      <p style="color:white">Investiga sobre tu proxima adopciòn</p>
+      
+</section>
+
+<footer>
+</body>
+<article>
+  <article><li><a href="C:\Piero Sepulveda\tabla.html"><button>NUESTRO PERSONAL</button></a>
+  </article>
+  <article>
+    <li><a href="C:\Piero Sepulveda\tabla.html"><BUTTON>HSITORIAS</BUTTON></a></li>
+  </article>
+</html>
